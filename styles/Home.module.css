@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -70,6 +70,26 @@
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
+}
+
+
+.tableau{
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.tableau tr{
+  border: 1px solid #333;
+}
+
+.tableau td{
+  padding: 10px;
+  text-align: center;
+  min-width: 200px;
+}
+
+.tableau tr td:nth-child(1){
+  border-right: 1px solid #333;
 }
 
 .center {
